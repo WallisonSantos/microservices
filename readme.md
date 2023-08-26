@@ -91,7 +91,7 @@ dotnet aspnet-codegenerator controller -name DepartmentController -m Department 
    },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-      "SalesWebMvcContext": "server=localhost;userid=root;password=1234567;database=saleswebmvcappdb"
+      "SalesWebMvcContext": "server=localhost;userid=root;password=1234567;database=***T***"
    }
 }
 
@@ -142,7 +142,7 @@ sudo mysql_secure_installation
 sudo systemctl status mysql             // Verificar o status do banco
 sudo systemctl start  mysql             // Startar banco
 sudo systemctl enable mysql             // Habilitar o inicio junto com o Sistema
-sudo mysql -u root -p                   // Acessar por linha de comando o banco -- 5711Co@
+sudo mysql -u root -p                   // Acessar por linha de comando o banco -- 
 SHOW DATABASES;                         // Mostar schema
 quit                                    // Sair do banco
 status                                  // Info do banco
